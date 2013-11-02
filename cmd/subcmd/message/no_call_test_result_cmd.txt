@@ -1,0 +1,3 @@
+solomon に対してテストの結果を通知する為の "%SOLOMON_TEST_SUCCESS_CMD%" あるいは "%SOLOMON_TEST_FAILED_CMD%" のどちらも呼び出しが行われませんでした。
+ビルドコマンド内からテストの結果を solomon に通知する為にこれらのコマンドを CALL してください。
+これらのコマンドを CALL しているにも関わらずこのメッセージが表示される場合、SETLOCAL/ENDLOCAL あたりのコマンドの使い方を誤ってないか確認してください。

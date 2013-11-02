@@ -1,0 +1,3 @@
+solomon に対してコンパイルの結果を通知する為の "%SOLOMON_COMPILE_SUCCESS_CMD%" あるいは "%SOLOMON_COMPILE_FAILED_CMD%" のどちらも呼び出しが行われませんでした。
+ビルドコマンド内からコンパイルの結果を solomon に通知する為にこれらのコマンドを CALL してください。
+これらのコマンドを CALL しているにも関わらずこのメッセージが表示される場合、SETLOCAL/ENDLOCAL あたりのコマンドの使い方を誤ってないか確認してください。

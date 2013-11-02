@@ -1,0 +1,5 @@
+@REM
+@REM ％1 から拡張子を除くファイル名を %SOLOMON_BUILD_LIST% に追加
+@REM
+
+@SET SOLOMON_BUILD_LIST=%SOLOMON_BUILD_LIST% "%~n1"

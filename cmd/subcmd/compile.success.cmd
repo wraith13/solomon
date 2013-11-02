@@ -1,0 +1,6 @@
+@REM
+@REM コンパイルに成功
+@REM
+
+@REM コンパイルに成功したステータスをセット
+@IF /I "" EQU "%SOLOMON_COMPILE_STATUS%" SET SOLOMON_COMPILE_STATUS=OK
