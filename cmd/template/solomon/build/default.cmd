@@ -21,7 +21,6 @@
 ★ここでコンパイルが成功したか判断する処理を記述してください。
 @IF ★成功していたら★ (CALL "%SOLOMON_COMPILE_SUCCESS_CMD%") ELSE CALL "%SOLOMON_COMPILE_FAILED_CMD%" ★エラーメッセージが格納されたファイル(省略可)★ & GOTO :EOF
 
-
 ★ここでコンパイル時に警告が出ていなかったか判断する処理を記述してください。
 @IF ★警告が出ていたら★ CALL "%SOLOMON_COMPILE_WARNED_CMD%" ★警告メッセージが格納されたファイル(省略可)★
 
