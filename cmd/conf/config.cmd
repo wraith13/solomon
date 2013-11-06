@@ -91,7 +91,7 @@
 @REM スナップショットの保存コマンド(最後にコンパイルに失敗した時のスナップショット)
 @SET SOLOMON_MAKE_SNAPSHOT_MISSED_COMPILE_CMD=%SOLOMON_MAKE_SNAPSHOT_CMD%
 
-@REM スナップショットの保存コマンド(最後にコンパイルに成功した時のスナップショット)
+@REM スナップショットの保存コマンド(最後にコンパイルに成功した時のスナップショット) ※ SOLOMON_NO_TEST が TRUE の場合にしか呼び出されません。
 @SET SOLOMON_MAKE_SNAPSHOT_PASSED_COMPILE_CMD=%SOLOMON_MAKE_SNAPSHOT_CMD%
 
 @REM スナップショットの保存コマンド(最後にテストに失敗した時のスナップショット)
