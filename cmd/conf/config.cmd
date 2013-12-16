@@ -76,6 +76,9 @@
 @REM 自動コンパイル＆テスト
 @SET SOLOMON_AUTO_BUILD=FALSE
 
+@REM 自動コンパイル＆テストでの待機解除時にCLSを実行する
+@SET SOLOMON_AUTO_BUILD_WITH_CLS=TRUE
+
 @REM 自動コンパイル＆テストでの監視対象ファイル一覧取得コマンド
 @SET SOLOMON_AUTO_BUILD_WATCH_VIEW=DIR /A:-D /S /T:W
 
