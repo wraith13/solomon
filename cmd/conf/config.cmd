@@ -53,7 +53,7 @@
 @SET SOLOMON_DATA_DIR=%SOLOMON_SNAPSHOT_DIR%\solomon.data
 
 @REM コンパイル＆テストを実行する作業ディレクトリ
-@SET SOLOMON_TESTSHOT_DIR=%SOLOMON_TARGET_DIR%\..\testsnap
+@SET SOLOMON_TESTSNAP_DIR=%SOLOMON_TARGET_DIR%\..\testsnap
 
 @REM 全ての(≠各)コンパイルとテストを開始する時に実行される処理
 @SET SOLOMON_BEGIN_EVENT=@COLOR 07
